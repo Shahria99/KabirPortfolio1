@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(218, 235, 235);
+  background-color: rgb(200, 223, 223);
+  opacity: 0.8;
 }
 p.para{
   color: rgb(33, 25, 97);
@@ -11,6 +12,8 @@ h4,h3{
 /* This is a CSS comments*/
 h5{
   color: brown;
+  border-style: groove;
+  border-width: 5px;
 }
 h5{
   border-left: 5px;
