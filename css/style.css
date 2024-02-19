@@ -26,9 +26,12 @@ h5{
 div{
   background-color: blueviolet;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px #ababab;
   border-style: groove;
   border-width: 5px;
   margin-top: 15px;
