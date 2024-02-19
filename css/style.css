@@ -35,6 +35,7 @@ div{
   border-style: groove;
   border-width: 5px;
   margin-top: 15px;
+  display: ;
 }
 a:hover{
   color: rgb(18, 11, 11);
