@@ -36,3 +36,10 @@ div{
   border-width: 5px;
   margin-top: 15px;
 }
+a:hover{
+  color: rgb(18, 11, 11);
+  background-color: yellow;
+}
+a:active{
+  background-color: rgb(226, 43, 43);
+}
