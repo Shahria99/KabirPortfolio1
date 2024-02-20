@@ -10,7 +10,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div>
+<header>
+  <nav class="main-nav">
+    <ul class="navigation-list">
+      <a href="/home"><li>Home</li></a>
+      <a href="/about"><li>About</li></a>
+      <a href="/contact"><li>Contact</li></a>
+      <a href="/login"><li>login</li></a>
+      <a href="/sign-up"><li>Sign-up</li></a>
+    </ul>
+  </nav>
+</header>
+
+
+  <div class="head">
     <h1 >Hello,</h1>
     <h3>Myself Kabir</h3>
   </div>
@@ -24,10 +37,15 @@
   <h5>
     CSS color practice
   </h5>
-  <h6>
-    Lorem ipsum dolor sit amet consectetur.
-  </h6>
-  <p>2nd Commit</p>
-  <a href="google.com">Google</a>
+  <label for="Name">Name</label>
+  <input id="Name" placeholder="your name" style="display: block;" type="text">
+  
+  <label for="Email">Email</label>
+  <input id="Email" placeholder="your email" style="display: block;" type="email">
+
+  <label for="pass">Password</label>
+  <input id="pass" placeholder="password" style="display: block; margin-bottom: 4px;" type="password">
+
+  <button>Submit</button>
 </body>
 </html>

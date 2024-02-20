@@ -2,6 +2,26 @@ body{
   background-color: rgb(200, 223, 223);
   opacity: 0.8;
 }
+.navigation-list{
+  display: flex;
+  margin: 5px;
+}
+li{
+  list-style-type: none;
+  margin: 4px;
+  padding: 4px;
+}
+.main-nav{
+  background-color: rgb(245, 206, 158);
+}
+a{
+  text-decoration: none;
+}
+@media (max-width: 360px){
+  .navigation-list{
+    flex-direction: column;
+}
+
 p.para{
   color: rgb(33, 25, 97);
   outline-style: double;
@@ -23,7 +43,7 @@ h5{
   border-left: 5px;
   color: rgb(171, 19, 44);
 }
-div{
+.head{
   background-color: blueviolet;
   text-align: center;
     font-family: "Sofia", cursive;
@@ -43,4 +63,30 @@ a:hover{
 }
 a:active{
   background-color: rgb(226, 43, 43);
+}
+
+.main-div{
+  display: flex;
+  align-items: center;
+
+}
+.st-1{
+background-color: blueviolet;
+margin-bottom: 5px;
+text-align: center;
+
+}
+.st-2{
+  background-color: blueviolet;
+  margin-bottom: 5px;
+text-align: center;
+  }
+  .st-3{
+    background-color: blueviolet;
+    margin-bottom: 5px;
+text-align: center;
+    }
+.parent{
+  display: flex;
+  
 }
