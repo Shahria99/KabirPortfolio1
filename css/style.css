@@ -2,9 +2,11 @@ body{
   background-color: rgb(200, 223, 223);
   opacity: 0.8;
 }
+/* header Part */
 .navigation-list{
   display: flex;
-  margin: 5px;
+  margin: 8px;
+  justify-content: center;
 }
 li{
   list-style-type: none;
@@ -13,37 +15,23 @@ li{
 }
 .main-nav{
   background-color: rgb(245, 206, 158);
+  justify-content: end;
 }
 a{
   text-decoration: none;
 }
-@media (max-width: 360px){
-  .navigation-list{
-    flex-direction: column;
+
+a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 13, 6);
+}
+a:active{
+  background-color: rgb(226, 43, 43);
 }
 
-p.para{
-  color: rgb(33, 25, 97);
-  outline-style: double;
-  outline-width: 2px;
-  outline-color: blue;
-  outline-offset: 1px;
-}
 
-h4,h6{
-  background-color: rgb(171, 212, 212);
-}
-/* This is a CSS comments*/
-h5{
-  color: brown;
-  border-style: groove;
-  border-width: 5px;
-}
-h5{
-  border-left: 5px;
-  color: rgb(171, 19, 44);
-}
-.head{
+/* Introduction Part */
+.intro{
   background-color: blueviolet;
   text-align: center;
     font-family: "Sofia", cursive;
@@ -55,14 +43,7 @@ h5{
   border-style: groove;
   border-width: 5px;
   margin-top: 15px;
-  display: ;
-}
-a:hover{
-  color: rgb(18, 11, 11);
-  background-color: yellow;
-}
-a:active{
-  background-color: rgb(226, 43, 43);
+
 }
 
 .main-div{
@@ -87,6 +68,9 @@ text-align: center;
 text-align: center;
     }
 .parent{
-  display: flex;
-  
+  display: flex; 
+}
+@media (max-width: 360px){
+  .navigation-list{
+    flex-direction: column;
 }
